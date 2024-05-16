@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Data</title>
+</head>
+<body>
+    <h1>Hotel Data</h1>
+    <ul>
+        {% for hotel in hotels %}
+            <li>{{ hotel.Name }} - {{ hotel.CityName }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
